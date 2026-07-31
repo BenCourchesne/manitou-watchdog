@@ -20,4 +20,4 @@ jobs:
           PUSHOVER_USER:  ${{ secrets.PUSHOVER_USER }}
           # Optionnel: surcharger les seuils
           # MAX_READINGS_AGE_MIN: "30"
-          MAX_DAILY_AGE_H: "1"   # TEST TEMPORAIRE - force une alerte pour valider Pushover
+          # MAX_DAILY_AGE_H: "60"
